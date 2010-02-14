@@ -326,7 +326,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>8F4AC3CD1121DA1200F7BC33</string>
+										<string>8FF47DE91128127B008072EE</string>
 										<key>history</key>
 										<array>
 											<string>8F8D25631115A8F100283670</string>
@@ -334,7 +334,7 @@
 											<string>8F08B1D31115F7FA003EDDD9</string>
 											<string>8F7E8DDA1121BC4C00F5F39A</string>
 											<string>8F4AC3CB1121DA1200F7BC33</string>
-											<string>8F4AC3CC1121DA1200F7BC33</string>
+											<string>8F4AC3CD1121DA1200F7BC33</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -457,11 +457,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>8F4AC3CE1121DA1200F7BC33</string>
+				<string>8FF47DEA1128127B008072EE</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>8F4AC3CF1121DA1200F7BC33</string>
+				<string>8FF47DEB1128127B008072EE</string>
 				<string>8FA018841114DC0900859563</string>
-				<string>8F4AC3D01121DA1200F7BC33</string>
+				<string>8FF47DEC1128127B008072EE</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -650,7 +650,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>/Users/yoann/SVN/CocoaCourses/trunk/101/Practice/Step 2/iPlayer.xcodeproj</string>
+		<string>/Users/yoann/SVN/cocoa-courses-fr/101/Practice/Step 2/iPlayer.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>288 131 1152 747 0 0 1440 878 </string>

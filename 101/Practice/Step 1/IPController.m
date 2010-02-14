@@ -30,7 +30,7 @@
 		[_soundPlayer resume];
 		_isSuspended = NO;
 	} else {
-		//if ([_playList count] == 0) return;
+		if ([_playList count] == 0) return;
 		
 		NSUInteger index = 0; // temp
 		
@@ -83,18 +83,14 @@
 	_isSuspended = NO;
 	
 	// temp
-	_music = [[MusicModel musicWithPath:
-		   [[NSBundle mainBundle] pathForResource:@"ModelViewController" ofType:@"mp3"]] 
-		  retain];
+	[_playList addObject:[MusicModel musicWithPath:[[NSBundle mainBundle] pathForResource:@"ModelViewController" ofType:@"mp3"]]];
 }
 
 - (void) dealloc
 {
 	if (_soundPlayer) [self stop:self];
 	[_playList release];
-	
-	[_music release]; // temp
-	
+		
 	[super dealloc];
 }
 
@@ -126,8 +122,7 @@
 
 -(void) ipc_playMusicAtIndex:(NSUInteger)index {
 	_currentIndex = index;
-	//[self ipc_playMusic:[_playList objectAtIndex:index]];
-	[self ipc_playMusic:_music]; // temp
+	[self ipc_playMusic:[_playList objectAtIndex:index]];
 }
 
 -(void) ipc_playMusic:(MusicModel*)music {

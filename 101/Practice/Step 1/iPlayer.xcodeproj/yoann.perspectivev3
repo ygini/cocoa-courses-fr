@@ -273,8 +273,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>3</integer>
-									<integer>1</integer>
+									<integer>11</integer>
+									<integer>7</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -296,7 +296,7 @@
 							<real>238</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>288 131 1152 747 0 0 1440 878 </string>
+						<string>55 131 1152 747 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -326,13 +326,13 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>8F4AC3C71121D99800F7BC33</string>
+										<string>8FF47DDD11281278008072EE</string>
 										<key>history</key>
 										<array>
 											<string>8F4EB275112188D400ED91C5</string>
 											<string>8F4EB276112188D400ED91C5</string>
-											<string>8FEAB98111218920002B5AF8</string>
-											<string>8FEAB98311218920002B5AF8</string>
+											<string>8FF47DDB11281278008072EE</string>
+											<string>8FF47DDC11281278008072EE</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -348,7 +348,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {892, 701}}</string>
 								<key>RubberWindowFrame</key>
-								<string>288 131 1152 747 0 0 1440 878 </string>
+								<string>55 131 1152 747 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -373,7 +373,7 @@
 										<key>Frame</key>
 										<string>{{10, 27}, {892, -27}}</string>
 										<key>RubberWindowFrame</key>
-										<string>288 131 1152 747 0 0 1440 878 </string>
+										<string>55 131 1152 747 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -455,11 +455,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>8F4AC3C81121D99800F7BC33</string>
+				<string>8FF47DDE11281278008072EE</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>8F4AC3C91121D99800F7BC33</string>
+				<string>8FF47DDF11281278008072EE</string>
 				<string>8FA018841114DC0900859563</string>
-				<string>8F4AC3CA1121D99800F7BC33</string>
+				<string>8FF47DE011281278008072EE</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -607,14 +607,14 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>8F4EB2691121827000ED91C5</string>
+				<string>8FF47DE111281278008072EE</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>8F4EB26A1121827000ED91C5</string>
-				<string>8F4EB26B1121827000ED91C5</string>
-				<string>8F4EB26C1121827000ED91C5</string>
-				<string>8F4EB26D1121827000ED91C5</string>
-				<string>8FA018841114DC0900859563</string>
+				<string>8FF47DE211281278008072EE</string>
+				<string>8FF47DE311281278008072EE</string>
+				<string>8FF47DE411281278008072EE</string>
+				<string>8FF47DE511281278008072EE</string>
+				<string>8FF47DE611281278008072EE</string>
 			</array>
 			<key>ToolbarConfigUserDefaultsMinorVersion</key>
 			<string>2</string>
@@ -648,10 +648,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>/Users/yoann/SVN/CocoaCourses/trunk/101/Practice/Step 1/iPlayer.xcodeproj</string>
+		<string>8FF47DE711281278008072EE</string>
+		<string>8FF47DE811281278008072EE</string>
+		<string>/Users/yoann/SVN/cocoa-courses-fr/101/Practice/Step 1/iPlayer.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>288 131 1152 747 0 0 1440 878 </string>
+	<string>55 131 1152 747 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

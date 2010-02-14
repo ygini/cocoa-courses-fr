@@ -23,8 +23,6 @@
 	
 	MusicModel		*_curentMusic;
 	NSInteger		_currentIndex;
-	
-	MusicModel		*_music; // temp
 }
 
 -(IBAction)playPause:(id)sender;
