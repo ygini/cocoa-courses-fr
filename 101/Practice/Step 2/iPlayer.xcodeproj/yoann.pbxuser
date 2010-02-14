@@ -1,0 +1,220 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 8FA018761114DBFB00859563 /* iPlayer */;
+		activeTarget = 8D1107260486CEB800E47090 /* iPlayer */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* iPlayer */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 8FA0188B1114DC0900859563 /* Code sense */;
+		executables = (
+			8FA018761114DBFB00859563 /* iPlayer */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					10,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 287431034;
+			PBXWorkspaceStateSaveDate = 287431034;
+		};
+		perUserProjectItems = {
+			8F08B1D21115F7FA003EDDD9 /* PBXTextBookmark */ = 8F08B1D21115F7FA003EDDD9 /* PBXTextBookmark */;
+			8F08B1D31115F7FA003EDDD9 /* PBXTextBookmark */ = 8F08B1D31115F7FA003EDDD9 /* PBXTextBookmark */;
+			8F4AC3CB1121DA1200F7BC33 /* PBXTextBookmark */ = 8F4AC3CB1121DA1200F7BC33 /* PBXTextBookmark */;
+			8F4AC3CC1121DA1200F7BC33 /* PBXTextBookmark */ = 8F4AC3CC1121DA1200F7BC33 /* PBXTextBookmark */;
+			8F4AC3CD1121DA1200F7BC33 /* PBXTextBookmark */ = 8F4AC3CD1121DA1200F7BC33 /* PBXTextBookmark */;
+			8F7E8DDA1121BC4C00F5F39A /* PBXTextBookmark */ = 8F7E8DDA1121BC4C00F5F39A /* PBXTextBookmark */;
+			8F8D25631115A8F100283670 /* PBXTextBookmark */ = 8F8D25631115A8F100283670 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 8FA0188A1114DC0900859563 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* iPlayer */ = {
+		activeExec = 0;
+		executables = (
+			8FA018761114DBFB00859563 /* iPlayer */,
+		);
+	};
+	8F03C5031121B58100A23C4B /* NSWindowScripting.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSWindowScripting.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSWindowScripting.h;
+		sourceTree = "<absolute>";
+	};
+	8F08B1D21115F7FA003EDDD9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8FA018911114E17900859563 /* MusicModel.h */;
+		name = "MusicModel.h: 25";
+		rLen = 35;
+		rLoc = 512;
+		rType = 0;
+		vrLen = 599;
+		vrLoc = 0;
+	};
+	8F08B1D31115F7FA003EDDD9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8FA018921114E17900859563 /* MusicModel.m */;
+		name = "MusicModel.m: 24";
+		rLen = 34;
+		rLoc = 439;
+		rType = 0;
+		vrLen = 771;
+		vrLoc = 266;
+	};
+	8F4AC3CB1121DA1200F7BC33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8FA0188D1114DE9000859563 /* IPController.h */;
+		name = "IPController.h: 42";
+		rLen = 38;
+		rLoc = 916;
+		rType = 0;
+		vrLen = 961;
+		vrLoc = 0;
+	};
+	8F4AC3CC1121DA1200F7BC33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8FA0188E1114DE9000859563 /* IPController.m */;
+		name = "IPController.m: 105";
+		rLen = 12;
+		rLoc = 2493;
+		rType = 0;
+		vrLen = 1139;
+		vrLoc = 1502;
+	};
+	8F4AC3CD1121DA1200F7BC33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8FA0188E1114DE9000859563 /* IPController.m */;
+		name = "IPController.m: 98";
+		rLen = 0;
+		rLoc = 2017;
+		rType = 0;
+		vrLen = 1343;
+		vrLoc = 1505;
+	};
+	8F7E8DDA1121BC4C00F5F39A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8F03C5031121B58100A23C4B /* NSWindowScripting.h */;
+		name = "NSWindowScripting.h: 27";
+		rLen = 33;
+		rLoc = 908;
+		rType = 0;
+		vrLen = 1283;
+		vrLoc = 0;
+	};
+	8F8D25631115A8F100283670 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8F8D25641115A8F100283670 /* NSTableColumn.h */;
+		name = "NSTableColumn.h: 78";
+		rLen = 37;
+		rLoc = 3810;
+		rType = 0;
+		vrLen = 4119;
+		vrLoc = 2432;
+	};
+	8F8D25641115A8F100283670 /* NSTableColumn.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSTableColumn.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSTableColumn.h;
+		sourceTree = "<absolute>";
+	};
+	8FA018761114DBFB00859563 /* iPlayer */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = iPlayer;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	8FA0188A1114DC0900859563 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	8FA0188B1114DC0900859563 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8FA0188D1114DE9000859563 /* IPController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {880, 669}}";
+			sepNavSelRange = "{916, 38}";
+			sepNavVisRange = "{0, 961}";
+			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
+		};
+	};
+	8FA0188E1114DE9000859563 /* IPController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {846, 2665}}";
+			sepNavSelRange = "{2017, 0}";
+			sepNavVisRange = "{1505, 1343}";
+		};
+	};
+	8FA018911114E17900859563 /* MusicModel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {904, 581}}";
+			sepNavSelRange = "{512, 35}";
+			sepNavVisRange = "{0, 599}";
+		};
+	};
+	8FA018921114E17900859563 /* MusicModel.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {904, 897}}";
+			sepNavSelRange = "{439, 34}";
+			sepNavVisRange = "{266, 771}";
+		};
+	};
+}

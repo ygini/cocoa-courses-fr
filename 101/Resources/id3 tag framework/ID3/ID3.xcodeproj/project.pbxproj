@@ -1,0 +1,983 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		089C1668FE841158C02AAC07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+		1058C7B3FEA5585E11CA2CBB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		8F16BC8811150BCF008D6D20 /* id3V1Tag.h in Headers */ = {isa = PBXBuildFile; fileRef = F530E10903DEB83B01FC605A /* id3V1Tag.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F16BC8911150BCF008D6D20 /* id3V2Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = F530E10B03DEB83B01FC605A /* id3V2Frame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F16BC8A11150BCF008D6D20 /* id3V2Tag.h in Headers */ = {isa = PBXBuildFile; fileRef = F530E10D03DEB83B01FC605A /* id3V2Tag.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F16BC8B11150BCF008D6D20 /* TagAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = F530E11203DEB83B01FC605A /* TagAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F16BC8C11150BCF008D6D20 /* V20FrameSet.h in Headers */ = {isa = PBXBuildFile; fileRef = F530E11503DEB83C01FC605A /* V20FrameSet.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8F16BC8D11150BCF008D6D20 /* V23FrameSet.h in Headers */ = {isa = PBXBuildFile; fileRef = F530E11703DEB83C01FC605A /* V23FrameSet.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8F16BC8E11150BCF008D6D20 /* V24FrameSet.h in Headers */ = {isa = PBXBuildFile; fileRef = F530E11903DEB83C01FC605A /* V24FrameSet.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8F16BC8F11150BCF008D6D20 /* MP3Header.h in Headers */ = {isa = PBXBuildFile; fileRef = F5588B7604CCE556012DB3E8 /* MP3Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F16BC9011150BCF008D6D20 /* md5.h in Headers */ = {isa = PBXBuildFile; fileRef = F5588BB804CD77D2012DB3E8 /* md5.h */; };
+		8F16BC9211150BCF008D6D20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+		8F16BC9311150BCF008D6D20 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = F58560ED04751F8B01FCACDD /* data.plist */; };
+		8F16BC9511150BCF008D6D20 /* id3V1Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = F530E10A03DEB83B01FC605A /* id3V1Tag.m */; };
+		8F16BC9611150BCF008D6D20 /* id3V2Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F530E10C03DEB83B01FC605A /* id3V2Frame.m */; };
+		8F16BC9711150BCF008D6D20 /* id3V2Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = F530E10E03DEB83B01FC605A /* id3V2Tag.m */; };
+		8F16BC9811150BCF008D6D20 /* TagAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F530E11303DEB83B01FC605A /* TagAPI.m */; };
+		8F16BC9911150BCF008D6D20 /* V20FrameSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F530E11603DEB83C01FC605A /* V20FrameSet.m */; };
+		8F16BC9A11150BCF008D6D20 /* V23FrameSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F530E11803DEB83C01FC605A /* V23FrameSet.m */; };
+		8F16BC9B11150BCF008D6D20 /* V24FrameSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F530E11A03DEB83C01FC605A /* V24FrameSet.m */; };
+		8F16BC9C11150BCF008D6D20 /* MP3Header.m in Sources */ = {isa = PBXBuildFile; fileRef = F5588B7704CCE556012DB3E8 /* MP3Header.m */; };
+		8F16BC9D11150BCF008D6D20 /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = F5588BB704CD77D2012DB3E8 /* md5.c */; };
+		8F16BC9F11150BCF008D6D20 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		8F16BCA011150BCF008D6D20 /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F721F80608D1B6020036F2A7 /* libz.1.2.3.dylib */; };
+		F530E12203DEB83C01FC605A /* id3V1Tag.h in Headers */ = {isa = PBXBuildFile; fileRef = F530E10903DEB83B01FC605A /* id3V1Tag.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F530E12303DEB83C01FC605A /* id3V1Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = F530E10A03DEB83B01FC605A /* id3V1Tag.m */; };
+		F530E12403DEB83C01FC605A /* id3V2Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = F530E10B03DEB83B01FC605A /* id3V2Frame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F530E12503DEB83C01FC605A /* id3V2Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F530E10C03DEB83B01FC605A /* id3V2Frame.m */; };
+		F530E12603DEB83C01FC605A /* id3V2Tag.h in Headers */ = {isa = PBXBuildFile; fileRef = F530E10D03DEB83B01FC605A /* id3V2Tag.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F530E12703DEB83C01FC605A /* id3V2Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = F530E10E03DEB83B01FC605A /* id3V2Tag.m */; };
+		F530E12B03DEB83C01FC605A /* TagAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = F530E11203DEB83B01FC605A /* TagAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F530E12C03DEB83C01FC605A /* TagAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F530E11303DEB83B01FC605A /* TagAPI.m */; };
+		F530E12E03DEB83C01FC605A /* V20FrameSet.h in Headers */ = {isa = PBXBuildFile; fileRef = F530E11503DEB83C01FC605A /* V20FrameSet.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F530E12F03DEB83C01FC605A /* V20FrameSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F530E11603DEB83C01FC605A /* V20FrameSet.m */; };
+		F530E13003DEB83C01FC605A /* V23FrameSet.h in Headers */ = {isa = PBXBuildFile; fileRef = F530E11703DEB83C01FC605A /* V23FrameSet.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F530E13103DEB83C01FC605A /* V23FrameSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F530E11803DEB83C01FC605A /* V23FrameSet.m */; };
+		F530E13203DEB83C01FC605A /* V24FrameSet.h in Headers */ = {isa = PBXBuildFile; fileRef = F530E11903DEB83C01FC605A /* V24FrameSet.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F530E13303DEB83C01FC605A /* V24FrameSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F530E11A03DEB83C01FC605A /* V24FrameSet.m */; };
+		F556016904F83B1F018584F8 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = F58560ED04751F8B01FCACDD /* data.plist */; };
+		F5BEC75004DBE4C001D7688A /* MP3Header.h in Headers */ = {isa = PBXBuildFile; fileRef = F5588B7604CCE556012DB3E8 /* MP3Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5BEC75104DBE4C101D7688A /* MP3Header.m in Sources */ = {isa = PBXBuildFile; fileRef = F5588B7704CCE556012DB3E8 /* MP3Header.m */; };
+		F5BEC75204DBE4C101D7688A /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = F5588BB704CD77D2012DB3E8 /* md5.c */; };
+		F5BEC75304DBE4C201D7688A /* md5.h in Headers */ = {isa = PBXBuildFile; fileRef = F5588BB804CD77D2012DB3E8 /* md5.h */; };
+		F709CB630A56AE6A00379D3E /* id3V1Tag.h in Headers */ = {isa = PBXBuildFile; fileRef = F530E10903DEB83B01FC605A /* id3V1Tag.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F709CB640A56AE6A00379D3E /* id3V2Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = F530E10B03DEB83B01FC605A /* id3V2Frame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F709CB650A56AE6A00379D3E /* id3V2Tag.h in Headers */ = {isa = PBXBuildFile; fileRef = F530E10D03DEB83B01FC605A /* id3V2Tag.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F709CB660A56AE6A00379D3E /* TagAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = F530E11203DEB83B01FC605A /* TagAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F709CB670A56AE6A00379D3E /* V20FrameSet.h in Headers */ = {isa = PBXBuildFile; fileRef = F530E11503DEB83C01FC605A /* V20FrameSet.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F709CB680A56AE6A00379D3E /* V23FrameSet.h in Headers */ = {isa = PBXBuildFile; fileRef = F530E11703DEB83C01FC605A /* V23FrameSet.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F709CB690A56AE6A00379D3E /* V24FrameSet.h in Headers */ = {isa = PBXBuildFile; fileRef = F530E11903DEB83C01FC605A /* V24FrameSet.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F709CB6A0A56AE6A00379D3E /* MP3Header.h in Headers */ = {isa = PBXBuildFile; fileRef = F5588B7604CCE556012DB3E8 /* MP3Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F709CB6B0A56AE6A00379D3E /* md5.h in Headers */ = {isa = PBXBuildFile; fileRef = F5588BB804CD77D2012DB3E8 /* md5.h */; };
+		F709CB6D0A56AE6A00379D3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+		F709CB6E0A56AE6A00379D3E /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = F58560ED04751F8B01FCACDD /* data.plist */; };
+		F709CB700A56AE6A00379D3E /* id3V1Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = F530E10A03DEB83B01FC605A /* id3V1Tag.m */; };
+		F709CB710A56AE6A00379D3E /* id3V2Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F530E10C03DEB83B01FC605A /* id3V2Frame.m */; };
+		F709CB720A56AE6A00379D3E /* id3V2Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = F530E10E03DEB83B01FC605A /* id3V2Tag.m */; };
+		F709CB730A56AE6A00379D3E /* TagAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F530E11303DEB83B01FC605A /* TagAPI.m */; };
+		F709CB740A56AE6A00379D3E /* V20FrameSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F530E11603DEB83C01FC605A /* V20FrameSet.m */; };
+		F709CB750A56AE6A00379D3E /* V23FrameSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F530E11803DEB83C01FC605A /* V23FrameSet.m */; };
+		F709CB760A56AE6A00379D3E /* V24FrameSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F530E11A03DEB83C01FC605A /* V24FrameSet.m */; };
+		F709CB770A56AE6A00379D3E /* MP3Header.m in Sources */ = {isa = PBXBuildFile; fileRef = F5588B7704CCE556012DB3E8 /* MP3Header.m */; };
+		F709CB780A56AE6A00379D3E /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = F5588BB704CD77D2012DB3E8 /* md5.c */; };
+		F709CB7A0A56AE6A00379D3E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		F709CB7B0A56AE6A00379D3E /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F721F80608D1B6020036F2A7 /* libz.1.2.3.dylib */; };
+		F721F80708D1B6020036F2A7 /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F721F80608D1B6020036F2A7 /* libz.1.2.3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		034768E0FF38A50411DB9C8B /* ID3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ID3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		8F16BCA611150BCF008D6D20 /* ID3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ID3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F16BCA711150BCF008D6D20 /* Info-ID3Tag__Upgraded_-1 copy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-ID3Tag__Upgraded_-1 copy.plist"; sourceTree = "<group>"; };
+		F530E10903DEB83B01FC605A /* id3V1Tag.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = id3V1Tag.h; sourceTree = "<group>"; };
+		F530E10A03DEB83B01FC605A /* id3V1Tag.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = id3V1Tag.m; sourceTree = "<group>"; };
+		F530E10B03DEB83B01FC605A /* id3V2Frame.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = id3V2Frame.h; sourceTree = "<group>"; };
+		F530E10C03DEB83B01FC605A /* id3V2Frame.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = id3V2Frame.m; sourceTree = "<group>"; };
+		F530E10D03DEB83B01FC605A /* id3V2Tag.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = id3V2Tag.h; sourceTree = "<group>"; };
+		F530E10E03DEB83B01FC605A /* id3V2Tag.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = id3V2Tag.m; sourceTree = "<group>"; };
+		F530E11203DEB83B01FC605A /* TagAPI.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TagAPI.h; sourceTree = "<group>"; };
+		F530E11303DEB83B01FC605A /* TagAPI.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TagAPI.m; sourceTree = "<group>"; };
+		F530E11503DEB83C01FC605A /* V20FrameSet.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = V20FrameSet.h; sourceTree = "<group>"; };
+		F530E11603DEB83C01FC605A /* V20FrameSet.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = V20FrameSet.m; sourceTree = "<group>"; };
+		F530E11703DEB83C01FC605A /* V23FrameSet.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = V23FrameSet.h; sourceTree = "<group>"; };
+		F530E11803DEB83C01FC605A /* V23FrameSet.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = V23FrameSet.m; sourceTree = "<group>"; };
+		F530E11903DEB83C01FC605A /* V24FrameSet.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = V24FrameSet.h; sourceTree = "<group>"; };
+		F530E11A03DEB83C01FC605A /* V24FrameSet.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = V24FrameSet.m; sourceTree = "<group>"; };
+		F5588B7604CCE556012DB3E8 /* MP3Header.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MP3Header.h; sourceTree = "<group>"; };
+		F5588B7704CCE556012DB3E8 /* MP3Header.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MP3Header.m; sourceTree = "<group>"; };
+		F5588BB704CD77D2012DB3E8 /* md5.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = md5.c; path = libid3/md5.c; sourceTree = SOURCE_ROOT; };
+		F5588BB804CD77D2012DB3E8 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = md5.h; path = libid3/md5.h; sourceTree = SOURCE_ROOT; };
+		F58560ED04751F8B01FCACDD /* data.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist; name = data.plist; path = libid3/data.plist; sourceTree = "<group>"; };
+		F709CB810A56AE6A00379D3E /* Info-ID3Tag__Upgraded_-1.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-ID3Tag__Upgraded_-1.plist"; sourceTree = "<group>"; };
+		F709CB820A56AE6A00379D3E /* ID3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ID3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F721B8F50A781EF400ACCC41 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		F721B8F60A781EF400ACCC41 /* data_old.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = data_old.plist; sourceTree = "<group>"; };
+		F721B8F70A781EF400ACCC41 /* GNUmakefile */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = GNUmakefile; sourceTree = "<group>"; };
+		F721B8F80A781EF400ACCC41 /* id3V1Tag.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = id3V1Tag.h; sourceTree = "<group>"; };
+		F721B8F90A781EF400ACCC41 /* id3V1Tag.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = id3V1Tag.m; sourceTree = "<group>"; };
+		F721B8FA0A781EF400ACCC41 /* id3V2Frame.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = id3V2Frame.h; sourceTree = "<group>"; };
+		F721B8FB0A781EF400ACCC41 /* id3V2Frame.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = id3V2Frame.m; sourceTree = "<group>"; };
+		F721B8FC0A781EF400ACCC41 /* id3V2Tag.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = id3V2Tag.h; sourceTree = "<group>"; };
+		F721B8FD0A781EF400ACCC41 /* id3V2Tag.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = id3V2Tag.m; sourceTree = "<group>"; };
+		F721B8FE0A781EF400ACCC41 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libz.1.1.3.dylib; sourceTree = "<group>"; };
+		F721B8FF0A781EF400ACCC41 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libz.1.dylib; sourceTree = "<group>"; };
+		F721B9000A781EF400ACCC41 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libz.dylib; sourceTree = "<group>"; };
+		F721B9010A781EF400ACCC41 /* md5.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = md5.c; sourceTree = "<group>"; };
+		F721B9020A781EF400ACCC41 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		F721B9030A781EF400ACCC41 /* MP3Header.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MP3Header.h; sourceTree = "<group>"; };
+		F721B9040A781EF400ACCC41 /* MP3Header.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MP3Header.m; sourceTree = "<group>"; };
+		F721B9050A781EF400ACCC41 /* TagAPI.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TagAPI.h; sourceTree = "<group>"; };
+		F721B9060A781EF400ACCC41 /* TagAPI.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = TagAPI.m; sourceTree = "<group>"; };
+		F721B9070A781EF400ACCC41 /* V20FrameSet.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = V20FrameSet.h; sourceTree = "<group>"; };
+		F721B9080A781EF400ACCC41 /* V20FrameSet.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = V20FrameSet.m; sourceTree = "<group>"; };
+		F721B9090A781EF400ACCC41 /* V23FrameSet.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = V23FrameSet.h; sourceTree = "<group>"; };
+		F721B90A0A781EF400ACCC41 /* V23FrameSet.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = V23FrameSet.m; sourceTree = "<group>"; };
+		F721B90B0A781EF400ACCC41 /* V24FrameSet.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = V24FrameSet.h; sourceTree = "<group>"; };
+		F721B90C0A781EF400ACCC41 /* V24FrameSet.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = V24FrameSet.m; sourceTree = "<group>"; };
+		F721B90D0A781EF400ACCC41 /* zlib.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = zlib.h; sourceTree = "<group>"; };
+		F721F80608D1B6020036F2A7 /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = /usr/lib/libz.1.2.3.dylib; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworkTarget section */
+		0867D69CFE84028FC02AAC07 /* ID3Tag_10.4_10.3_PPC */ = {
+			isa = PBXFrameworkTarget;
+			buildConfigurationList = F72F7759088DB44200D67111 /* Build configuration list for PBXFrameworkTarget "ID3Tag_10.4_10.3_PPC" */;
+			buildPhases = (
+				0867D69DFE84028FC02AAC07 /* Headers */,
+				0867D69EFE84028FC02AAC07 /* Resources */,
+				0867D69FFE84028FC02AAC07 /* Sources */,
+				0867D6A0FE84028FC02AAC07 /* Frameworks */,
+				0867D6A2FE84028FC02AAC07 /* Rez */,
+			);
+			dependencies = (
+			);
+			name = ID3Tag_10.4_10.3_PPC;
+			productInstallPath = "@executable_path/../Frameworks";
+			productName = "ID3 Tag";
+			productReference = 034768E0FF38A50411DB9C8B /* ID3.framework */;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>ID3</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>ID3</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>ID3 Framework</string>
+	<key>CFBundlePackageType</key>
+	<string>FMWK</string>
+	<key>CFBundleShortVersionString</key>
+	<string>ID3 v1 and v2(0)-(4) mp3 tag reader</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>0.99.1</string>
+	<key>NSPrincipalClass</key>
+	<string></string>
+</dict>
+</plist>
+";
+		};
+/* End PBXFrameworkTarget section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0867D6A0FE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1058C7B3FEA5585E11CA2CBB /* Cocoa.framework in Frameworks */,
+				F721F80708D1B6020036F2A7 /* libz.1.2.3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F16BC9E11150BCF008D6D20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F16BC9F11150BCF008D6D20 /* Cocoa.framework in Frameworks */,
+				8F16BCA011150BCF008D6D20 /* libz.1.2.3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F709CB790A56AE6A00379D3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F709CB7A0A56AE6A00379D3E /* Cocoa.framework in Frameworks */,
+				F709CB7B0A56AE6A00379D3E /* libz.1.2.3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				034768E0FF38A50411DB9C8B /* ID3.framework */,
+				F709CB820A56AE6A00379D3E /* ID3.framework */,
+				8F16BCA611150BCF008D6D20 /* ID3.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* ID3 Tag */ = {
+			isa = PBXGroup;
+			children = (
+				F721B8F40A781EF400ACCC41 /* libid3 */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+				F709CB810A56AE6A00379D3E /* Info-ID3Tag__Upgraded_-1.plist */,
+				8F16BCA711150BCF008D6D20 /* Info-ID3Tag__Upgraded_-1 copy.plist */,
+			);
+			name = "ID3 Tag";
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+				F58560ED04751F8B01FCACDD /* data.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F530E10203DEB83B01FC605A /* libid3 */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F721F80608D1B6020036F2A7 /* libz.1.2.3.dylib */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F530E10203DEB83B01FC605A /* libid3 */ = {
+			isa = PBXGroup;
+			children = (
+				F530E11203DEB83B01FC605A /* TagAPI.h */,
+				F530E11303DEB83B01FC605A /* TagAPI.m */,
+				F5588B7504CCE51A012DB3E8 /* MP3 header info */,
+				F5701A7503E3953001B7BC07 /* V1 Tag */,
+				F5701A7403E3951301B7BC07 /* V2 Tags */,
+			);
+			path = libid3;
+			sourceTree = "<group>";
+		};
+		F5588B7504CCE51A012DB3E8 /* MP3 header info */ = {
+			isa = PBXGroup;
+			children = (
+				F5588B7604CCE556012DB3E8 /* MP3Header.h */,
+				F5588B7704CCE556012DB3E8 /* MP3Header.m */,
+				F5588BB704CD77D2012DB3E8 /* md5.c */,
+				F5588BB804CD77D2012DB3E8 /* md5.h */,
+			);
+			name = "MP3 header info";
+			sourceTree = "<group>";
+		};
+		F5701A7303E394E101B7BC07 /* FrameSet readers */ = {
+			isa = PBXGroup;
+			children = (
+				F530E11503DEB83C01FC605A /* V20FrameSet.h */,
+				F530E11603DEB83C01FC605A /* V20FrameSet.m */,
+				F530E11703DEB83C01FC605A /* V23FrameSet.h */,
+				F530E11803DEB83C01FC605A /* V23FrameSet.m */,
+				F530E11903DEB83C01FC605A /* V24FrameSet.h */,
+				F530E11A03DEB83C01FC605A /* V24FrameSet.m */,
+			);
+			name = "FrameSet readers";
+			sourceTree = "<group>";
+		};
+		F5701A7403E3951301B7BC07 /* V2 Tags */ = {
+			isa = PBXGroup;
+			children = (
+				F530E10B03DEB83B01FC605A /* id3V2Frame.h */,
+				F530E10C03DEB83B01FC605A /* id3V2Frame.m */,
+				F530E10D03DEB83B01FC605A /* id3V2Tag.h */,
+				F530E10E03DEB83B01FC605A /* id3V2Tag.m */,
+				F5701A7303E394E101B7BC07 /* FrameSet readers */,
+			);
+			name = "V2 Tags";
+			sourceTree = "<group>";
+		};
+		F5701A7503E3953001B7BC07 /* V1 Tag */ = {
+			isa = PBXGroup;
+			children = (
+				F530E10903DEB83B01FC605A /* id3V1Tag.h */,
+				F530E10A03DEB83B01FC605A /* id3V1Tag.m */,
+			);
+			name = "V1 Tag";
+			sourceTree = "<group>";
+		};
+		F721B8F40A781EF400ACCC41 /* libid3 */ = {
+			isa = PBXGroup;
+			children = (
+				F721B8F50A781EF400ACCC41 /* data.plist */,
+				F721B8F60A781EF400ACCC41 /* data_old.plist */,
+				F721B8F70A781EF400ACCC41 /* GNUmakefile */,
+				F721B8F80A781EF400ACCC41 /* id3V1Tag.h */,
+				F721B8F90A781EF400ACCC41 /* id3V1Tag.m */,
+				F721B8FA0A781EF400ACCC41 /* id3V2Frame.h */,
+				F721B8FB0A781EF400ACCC41 /* id3V2Frame.m */,
+				F721B8FC0A781EF400ACCC41 /* id3V2Tag.h */,
+				F721B8FD0A781EF400ACCC41 /* id3V2Tag.m */,
+				F721B8FE0A781EF400ACCC41 /* libz.1.1.3.dylib */,
+				F721B8FF0A781EF400ACCC41 /* libz.1.dylib */,
+				F721B9000A781EF400ACCC41 /* libz.dylib */,
+				F721B9010A781EF400ACCC41 /* md5.c */,
+				F721B9020A781EF400ACCC41 /* md5.h */,
+				F721B9030A781EF400ACCC41 /* MP3Header.h */,
+				F721B9040A781EF400ACCC41 /* MP3Header.m */,
+				F721B9050A781EF400ACCC41 /* TagAPI.h */,
+				F721B9060A781EF400ACCC41 /* TagAPI.m */,
+				F721B9070A781EF400ACCC41 /* V20FrameSet.h */,
+				F721B9080A781EF400ACCC41 /* V20FrameSet.m */,
+				F721B9090A781EF400ACCC41 /* V23FrameSet.h */,
+				F721B90A0A781EF400ACCC41 /* V23FrameSet.m */,
+				F721B90B0A781EF400ACCC41 /* V24FrameSet.h */,
+				F721B90C0A781EF400ACCC41 /* V24FrameSet.m */,
+				F721B90D0A781EF400ACCC41 /* zlib.h */,
+			);
+			path = libid3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0867D69DFE84028FC02AAC07 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F530E12203DEB83C01FC605A /* id3V1Tag.h in Headers */,
+				F530E12403DEB83C01FC605A /* id3V2Frame.h in Headers */,
+				F530E12603DEB83C01FC605A /* id3V2Tag.h in Headers */,
+				F530E12B03DEB83C01FC605A /* TagAPI.h in Headers */,
+				F530E12E03DEB83C01FC605A /* V20FrameSet.h in Headers */,
+				F530E13003DEB83C01FC605A /* V23FrameSet.h in Headers */,
+				F530E13203DEB83C01FC605A /* V24FrameSet.h in Headers */,
+				F5BEC75004DBE4C001D7688A /* MP3Header.h in Headers */,
+				F5BEC75304DBE4C201D7688A /* md5.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F16BC8711150BCF008D6D20 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F16BC8811150BCF008D6D20 /* id3V1Tag.h in Headers */,
+				8F16BC8911150BCF008D6D20 /* id3V2Frame.h in Headers */,
+				8F16BC8A11150BCF008D6D20 /* id3V2Tag.h in Headers */,
+				8F16BC8B11150BCF008D6D20 /* TagAPI.h in Headers */,
+				8F16BC8C11150BCF008D6D20 /* V20FrameSet.h in Headers */,
+				8F16BC8D11150BCF008D6D20 /* V23FrameSet.h in Headers */,
+				8F16BC8E11150BCF008D6D20 /* V24FrameSet.h in Headers */,
+				8F16BC8F11150BCF008D6D20 /* MP3Header.h in Headers */,
+				8F16BC9011150BCF008D6D20 /* md5.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F709CB620A56AE6A00379D3E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F709CB630A56AE6A00379D3E /* id3V1Tag.h in Headers */,
+				F709CB640A56AE6A00379D3E /* id3V2Frame.h in Headers */,
+				F709CB650A56AE6A00379D3E /* id3V2Tag.h in Headers */,
+				F709CB660A56AE6A00379D3E /* TagAPI.h in Headers */,
+				F709CB670A56AE6A00379D3E /* V20FrameSet.h in Headers */,
+				F709CB680A56AE6A00379D3E /* V23FrameSet.h in Headers */,
+				F709CB690A56AE6A00379D3E /* V24FrameSet.h in Headers */,
+				F709CB6A0A56AE6A00379D3E /* MP3Header.h in Headers */,
+				F709CB6B0A56AE6A00379D3E /* md5.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8F16BC8611150BCF008D6D20 /* ID3Tag_10.5_32-64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F16BCA211150BCF008D6D20 /* Build configuration list for PBXNativeTarget "ID3Tag_10.5_32-64" */;
+			buildPhases = (
+				8F16BC8711150BCF008D6D20 /* Headers */,
+				8F16BC9111150BCF008D6D20 /* Resources */,
+				8F16BC9411150BCF008D6D20 /* Sources */,
+				8F16BC9E11150BCF008D6D20 /* Frameworks */,
+				8F16BCA111150BCF008D6D20 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ID3Tag_10.5_32-64";
+			productInstallPath = "@executable_path/../Frameworks";
+			productName = "ID3 Tag";
+			productReference = 8F16BCA611150BCF008D6D20 /* ID3.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F709CB610A56AE6A00379D3E /* ID3Tag_10.4_Universal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F709CB7D0A56AE6A00379D3E /* Build configuration list for PBXNativeTarget "ID3Tag_10.4_Universal" */;
+			buildPhases = (
+				F709CB620A56AE6A00379D3E /* Headers */,
+				F709CB6C0A56AE6A00379D3E /* Resources */,
+				F709CB6F0A56AE6A00379D3E /* Sources */,
+				F709CB790A56AE6A00379D3E /* Frameworks */,
+				F709CB7C0A56AE6A00379D3E /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ID3Tag_10.4_Universal;
+			productInstallPath = "@executable_path/../Frameworks";
+			productName = "ID3 Tag";
+			productReference = F709CB820A56AE6A00379D3E /* ID3.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F72F775D088DB44200D67111 /* Build configuration list for PBXProject "ID3" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* ID3 Tag */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F709CB610A56AE6A00379D3E /* ID3Tag_10.4_Universal */,
+				0867D69CFE84028FC02AAC07 /* ID3Tag_10.4_10.3_PPC */,
+				8F16BC8611150BCF008D6D20 /* ID3Tag_10.5_32-64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0867D69EFE84028FC02AAC07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089C1668FE841158C02AAC07 /* InfoPlist.strings in Resources */,
+				F556016904F83B1F018584F8 /* data.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F16BC9111150BCF008D6D20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F16BC9211150BCF008D6D20 /* InfoPlist.strings in Resources */,
+				8F16BC9311150BCF008D6D20 /* data.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F709CB6C0A56AE6A00379D3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F709CB6D0A56AE6A00379D3E /* InfoPlist.strings in Resources */,
+				F709CB6E0A56AE6A00379D3E /* data.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		0867D6A2FE84028FC02AAC07 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F16BCA111150BCF008D6D20 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F709CB7C0A56AE6A00379D3E /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0867D69FFE84028FC02AAC07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F530E12303DEB83C01FC605A /* id3V1Tag.m in Sources */,
+				F530E12503DEB83C01FC605A /* id3V2Frame.m in Sources */,
+				F530E12703DEB83C01FC605A /* id3V2Tag.m in Sources */,
+				F530E12C03DEB83C01FC605A /* TagAPI.m in Sources */,
+				F530E12F03DEB83C01FC605A /* V20FrameSet.m in Sources */,
+				F530E13103DEB83C01FC605A /* V23FrameSet.m in Sources */,
+				F530E13303DEB83C01FC605A /* V24FrameSet.m in Sources */,
+				F5BEC75104DBE4C101D7688A /* MP3Header.m in Sources */,
+				F5BEC75204DBE4C101D7688A /* md5.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F16BC9411150BCF008D6D20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F16BC9511150BCF008D6D20 /* id3V1Tag.m in Sources */,
+				8F16BC9611150BCF008D6D20 /* id3V2Frame.m in Sources */,
+				8F16BC9711150BCF008D6D20 /* id3V2Tag.m in Sources */,
+				8F16BC9811150BCF008D6D20 /* TagAPI.m in Sources */,
+				8F16BC9911150BCF008D6D20 /* V20FrameSet.m in Sources */,
+				8F16BC9A11150BCF008D6D20 /* V23FrameSet.m in Sources */,
+				8F16BC9B11150BCF008D6D20 /* V24FrameSet.m in Sources */,
+				8F16BC9C11150BCF008D6D20 /* MP3Header.m in Sources */,
+				8F16BC9D11150BCF008D6D20 /* md5.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F709CB6F0A56AE6A00379D3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F709CB700A56AE6A00379D3E /* id3V1Tag.m in Sources */,
+				F709CB710A56AE6A00379D3E /* id3V2Frame.m in Sources */,
+				F709CB720A56AE6A00379D3E /* id3V2Tag.m in Sources */,
+				F709CB730A56AE6A00379D3E /* TagAPI.m in Sources */,
+				F709CB740A56AE6A00379D3E /* V20FrameSet.m in Sources */,
+				F709CB750A56AE6A00379D3E /* V23FrameSet.m in Sources */,
+				F709CB760A56AE6A00379D3E /* V24FrameSet.m in Sources */,
+				F709CB770A56AE6A00379D3E /* MP3Header.m in Sources */,
+				F709CB780A56AE6A00379D3E /* md5.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F16BCA311150BCF008D6D20 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "\"__APPLE__\"";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_USE_GCC3_PFE_SUPPORT = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-ID3Tag__Upgraded_-1 copy.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "\U0001";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-seg1addr",
+					0x20000000,
+				);
+				PRODUCT_NAME = ID3;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		8F16BCA411150BCF008D6D20 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEPLOYMENT_LOCATION = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "\"__APPLE__=1\"";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-ID3Tag__Upgraded_-1 copy.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "\U0001";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-seg1addr",
+					0x20000000,
+				);
+				PREBINDING = YES;
+				PRODUCT_NAME = ID3;
+				SECTORDER_FLAGS = "";
+				SKIP_INSTALL = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		8F16BCA511150BCF008D6D20 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "\"\"";
+				FRAMEWORK_VERSION = A;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "\"\"";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-ID3Tag__Upgraded_-1 copy.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "\U0001";
+				OTHER_CFLAGS = __APPLE__;
+				OTHER_LDFLAGS = (
+					"-seg1addr",
+					0x20000000,
+				);
+				PRODUCT_NAME = ID3;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Default;
+		};
+		F709CB7E0A56AE6A00379D3E /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "\"__APPLE__\"";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_USE_GCC3_PFE_SUPPORT = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-ID3Tag__Upgraded_-1.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "\U0001";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-seg1addr",
+					0x20000000,
+				);
+				PRODUCT_NAME = ID3;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		F709CB7F0A56AE6A00379D3E /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEPLOYMENT_LOCATION = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "\"__APPLE__=1\"";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-ID3Tag__Upgraded_-1.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "\U0001";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-seg1addr",
+					0x20000000,
+				);
+				PREBINDING = YES;
+				PRODUCT_NAME = ID3;
+				SECTORDER_FLAGS = "";
+				SKIP_INSTALL = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		F709CB800A56AE6A00379D3E /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "\"\"";
+				FRAMEWORK_VERSION = A;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "\"\"";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-ID3Tag__Upgraded_-1.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "\U0001";
+				OTHER_CFLAGS = __APPLE__;
+				OTHER_LDFLAGS = (
+					"-seg1addr",
+					0x20000000,
+				);
+				PRODUCT_NAME = ID3;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Default;
+		};
+		F72F775A088DB44200D67111 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "\U0001";
+				OTHER_CFLAGS = (
+					"-D",
+					__APPLE__,
+				);
+				OTHER_LDFLAGS = (
+					"-seg1addr",
+					0x20000000,
+				);
+				PRODUCT_NAME = ID3;
+				SECTORDER_FLAGS = "";
+				USE_GCC3_PFE_SUPPORT = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		F72F775B088DB44200D67111 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "\U0001";
+				OTHER_CFLAGS = (
+					"-D",
+					__APPLE__,
+				);
+				OTHER_LDFLAGS = (
+					"-seg1addr",
+					0x20000000,
+				);
+				PRODUCT_NAME = ID3;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		F72F775C088DB44200D67111 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "\"\"";
+				FRAMEWORK_VERSION = A;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "\U0001";
+				OTHER_CFLAGS = (
+					"-D",
+					__APPLE__,
+				);
+				OTHER_LDFLAGS = (
+					"-seg1addr",
+					0x20000000,
+				);
+				PRODUCT_NAME = ID3;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Default;
+		};
+		F72F775E088DB44200D67111 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		F72F775F088DB44200D67111 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				SDKROOT = "";
+			};
+			name = Deployment;
+		};
+		F72F7760088DB44200D67111 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = "";
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F16BCA211150BCF008D6D20 /* Build configuration list for PBXNativeTarget "ID3Tag_10.5_32-64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F16BCA311150BCF008D6D20 /* Development */,
+				8F16BCA411150BCF008D6D20 /* Deployment */,
+				8F16BCA511150BCF008D6D20 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F709CB7D0A56AE6A00379D3E /* Build configuration list for PBXNativeTarget "ID3Tag_10.4_Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F709CB7E0A56AE6A00379D3E /* Development */,
+				F709CB7F0A56AE6A00379D3E /* Deployment */,
+				F709CB800A56AE6A00379D3E /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F72F7759088DB44200D67111 /* Build configuration list for PBXFrameworkTarget "ID3Tag_10.4_10.3_PPC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72F775A088DB44200D67111 /* Development */,
+				F72F775B088DB44200D67111 /* Deployment */,
+				F72F775C088DB44200D67111 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F72F775D088DB44200D67111 /* Build configuration list for PBXProject "ID3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72F775E088DB44200D67111 /* Development */,
+				F72F775F088DB44200D67111 /* Deployment */,
+				F72F7760088DB44200D67111 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

@@ -1,0 +1,153 @@
+// !$*UTF8*$!
+{
+	256AC3D80F4B6AC300CF3369 /* LightButtonAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {769, 669}}";
+			sepNavSelRange = "{389, 0}";
+			sepNavVisRange = "{0, 396}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* LightButtonAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {769, 669}}";
+			sepNavSelRange = "{151, 1}";
+			sepNavVisRange = "{0, 402}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 8FB676DB1107410800470335 /* LightButton */;
+		activeTarget = 8D1107260486CEB800E47090 /* LightButton */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* LightButton */,
+		);
+		codeSenseManager = 8FB676EF1107410F00470335 /* Code sense */;
+		executables = (
+			8FB676DB1107410800470335 /* LightButton */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					10,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 287417758;
+			PBXWorkspaceStateSaveDate = 287417758;
+		};
+		perUserProjectItems = {
+			8F03C4AC1121A5B400A23C4B /* PBXTextBookmark */ = 8F03C4AC1121A5B400A23C4B /* PBXTextBookmark */;
+			8F03C4B31121A61D00A23C4B /* PBXTextBookmark */ = 8F03C4B31121A61D00A23C4B /* PBXTextBookmark */;
+			8FB67706110744D800470335 /* PBXBookmark */ = 8FB67706110744D800470335 /* PBXBookmark */;
+			8FB67707110744D800470335 /* PBXBookmark */ = 8FB67707110744D800470335 /* PBXBookmark */;
+			8FB67708110744D800470335 /* PBXTextBookmark */ = 8FB67708110744D800470335 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 8FB676EE1107410F00470335 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* LightButton */ = {
+		activeExec = 0;
+		executables = (
+			8FB676DB1107410800470335 /* LightButton */,
+		);
+	};
+	8F03C4AC1121A5B400A23C4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* LightButtonAppDelegate.h */;
+		name = "LightButtonAppDelegate.h: 18";
+		rLen = 0;
+		rLoc = 389;
+		rType = 0;
+		vrLen = 396;
+		vrLoc = 0;
+	};
+	8F03C4B31121A61D00A23C4B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* LightButtonAppDelegate.m */;
+		name = "LightButtonAppDelegate.m: 7";
+		rLen = 1;
+		rLoc = 151;
+		rType = 0;
+		vrLen = 402;
+		vrLoc = 0;
+	};
+	8FB676DB1107410800470335 /* LightButton */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = LightButton;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	8FB676EE1107410F00470335 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	8FB676EF1107410F00470335 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8FB67706110744D800470335 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8FB676F01107411800470335 /* Light1.jpg */;
+	};
+	8FB67707110744D800470335 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8FB676F11107411800470335 /* Light2.jpg */;
+	};
+	8FB67708110744D800470335 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* LightButtonAppDelegate.m */;
+		name = "LightButtonAppDelegate.m: 17";
+		rLen = 0;
+		rLoc = 390;
+		rType = 0;
+		vrLen = 402;
+		vrLoc = 0;
+	};
+}
