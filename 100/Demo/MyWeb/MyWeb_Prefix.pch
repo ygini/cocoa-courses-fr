@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'MyWeb' target in the 'MyWeb' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
