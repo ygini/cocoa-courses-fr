@@ -231,6 +231,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -275,13 +277,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>15</integer>
+									<integer>14</integer>
 									<integer>9</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {247, 496}}</string>
+							<string>{{0, 0}, {247, 710}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -291,14 +293,14 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {264, 514}}</string>
+						<string>{{0, 0}, {264, 728}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
 							<real>247</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>50 323 1046 555 0 0 1440 878 </string>
+						<string>0 109 1440 769 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -314,7 +316,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>E1C8CA1A0EB207D8006FEE71</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Info.plist</string>
+								<string>CookBookAppDelegate.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -322,20 +324,22 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>E1C8CA1B0EB207D8006FEE71</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Info.plist</string>
+										<string>CookBookAppDelegate.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>E1F56EE511DB7954008278E2</string>
+										<string>E1E5D504123E844A00EE31F2</string>
 										<key>history</key>
 										<array>
-											<string>E16FA1B80EBA112C0046D34D</string>
 											<string>E16FA1B90EBA112C0046D34D</string>
 											<string>E16FA1BA0EBA112C0046D34D</string>
 											<string>E16FA1BB0EBA112C0046D34D</string>
 											<string>E16FA1BC0EBA112C0046D34D</string>
 											<string>E1D195600EBA115F00E2BEF1</string>
-											<string>E1D1956D0EBA13E300E2BEF1</string>
+											<string>E1E5D500123E844A00EE31F2</string>
+											<string>E1E5D501123E844A00EE31F2</string>
+											<string>E1E5D502123E844A00EE31F2</string>
+											<string>E1E5D503123E844A00EE31F2</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -349,14 +353,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {777, 509}}</string>
+								<string>{{0, 0}, {1171, 723}}</string>
 								<key>RubberWindowFrame</key>
-								<string>50 323 1046 555 0 0 1440 878 </string>
+								<string>0 109 1440 769 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>509pt</string>
+							<string>723pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
@@ -374,9 +378,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {777, -27}}</string>
+										<string>{{10, 27}, {1171, -27}}</string>
 										<key>RubberWindowFrame</key>
-										<string>50 323 1046 555 0 0 1440 878 </string>
+										<string>0 109 1440 769 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -439,7 +443,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>777pt</string>
+					<string>1171pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -458,11 +462,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>E1F56EE211DB7954008278E2</string>
+				<string>E1E5D4F6123E83CB00EE31F2</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>E1F56EE311DB7954008278E2</string>
+				<string>E1E5D4F7123E83CB00EE31F2</string>
 				<string>E1C8CA1A0EB207D8006FEE71</string>
-				<string>E1F56EE411DB7954008278E2</string>
+				<string>E1E5D4F8123E83CB00EE31F2</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -478,19 +482,18 @@
 			<array>
 				<string>XCToolbarPerspectiveControl</string>
 				<string>NSToolbarSeparatorItem</string>
+				<string>active-combo-popup</string>
 				<string>NSToolbarFlexibleSpaceItem</string>
-				<string>build-and-go</string>
-				<string>go</string>
-				<string>NSToolbarSpaceItem</string>
 				<string>debugger-fix-and-continue</string>
+				<string>build-and-go</string>
+				<string>com.apple.ide.PBXToolbarStopButton</string>
 				<string>debugger-restart-executable</string>
 				<string>debugger-pause</string>
-				<string>NSToolbarSpaceItem</string>
 				<string>debugger-step-over</string>
 				<string>debugger-step-into</string>
 				<string>debugger-step-out</string>
-				<string>debugger-step-instruction</string>
 				<string>NSToolbarFlexibleSpaceItem</string>
+				<string>clear-log</string>
 			</array>
 			<key>ControllerClassBaseName</key>
 			<string>PBXDebugSessionModule</string>
@@ -611,15 +614,17 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>E1D195670EBA115F00E2BEF1</string>
+				<string>E1E5D4F9123E83CB00EE31F2</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>E1D195680EBA115F00E2BEF1</string>
-				<string>E1D195690EBA115F00E2BEF1</string>
-				<string>E1D1956A0EBA115F00E2BEF1</string>
-				<string>E1D1956B0EBA115F00E2BEF1</string>
-				<string>E1D1956C0EBA115F00E2BEF1</string>
+				<string>E1E5D4FA123E83CB00EE31F2</string>
+				<string>E1E5D4FB123E83CB00EE31F2</string>
+				<string>E1E5D4FC123E83CB00EE31F2</string>
+				<string>E1E5D4FD123E83CB00EE31F2</string>
+				<string>E1E5D4FE123E83CB00EE31F2</string>
 			</array>
+			<key>ToolbarConfigUserDefaultsMinorVersion</key>
+			<string>2</string>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
 		</dict>
@@ -651,7 +656,7 @@
 		<string>/Users/yoanngini/SVN/cocoa-courses-fr/201/Demo/CookBook/CookBook.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>50 323 1046 555 0 0 1440 878 </string>
+	<string>0 109 1440 769 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

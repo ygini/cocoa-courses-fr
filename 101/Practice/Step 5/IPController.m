@@ -82,7 +82,7 @@
 	
 	if (index < 0) index = [[playList arrangedObjects] count]-1;
 	
-	[self ipc_playMusicAtIndex:index];;
+	[self ipc_playMusicAtIndex:index];
 }
 
 

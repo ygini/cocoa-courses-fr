@@ -2,16 +2,16 @@
 {
 	1D3623240D0F684500981E51 /* CookBookAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {632, 402}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1110, 668}}";
 			sepNavSelRange = "{255, 30}";
-			sepNavVisRange = "{0, 421}";
+			sepNavVisRange = "{0, 439}";
 		};
 	};
 	1D3623250D0F684500981E51 /* CookBookAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {716, 477}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1110, 691}}";
 			sepNavSelRange = "{353, 0}";
-			sepNavVisRange = "{0, 451}";
+			sepNavVisRange = "{0, 469}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* CookBook */ = {
@@ -23,6 +23,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = E1C8C9870EB1D4AF006FEE71 /* CookBook */;
+		activeSDKPreference = iphonesimulator4.0;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* CookBook */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* CookBook */,
@@ -76,18 +77,20 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 299596112;
-			PBXWorkspaceStateSaveDate = 299596112;
+			PBXPerProjectTemplateStateSaveDate = 306086844;
+			PBXWorkspaceStateSaveDate = 306086844;
 		};
 		perUserProjectItems = {
-			E16FA1B80EBA112C0046D34D /* PBXTextBookmark */ = E16FA1B80EBA112C0046D34D /* PBXTextBookmark */;
 			E16FA1B90EBA112C0046D34D /* PBXBookmark */ = E16FA1B90EBA112C0046D34D /* PBXBookmark */;
 			E16FA1BA0EBA112C0046D34D /* PBXBookmark */ = E16FA1BA0EBA112C0046D34D /* PBXBookmark */;
 			E16FA1BB0EBA112C0046D34D /* PBXBookmark */ = E16FA1BB0EBA112C0046D34D /* PBXBookmark */;
 			E16FA1BC0EBA112C0046D34D /* PBXBookmark */ = E16FA1BC0EBA112C0046D34D /* PBXBookmark */;
 			E1D195600EBA115F00E2BEF1 /* PBXTextBookmark */ = E1D195600EBA115F00E2BEF1 /* PBXTextBookmark */;
-			E1D1956D0EBA13E300E2BEF1 /* PlistBookmark */ = E1D1956D0EBA13E300E2BEF1 /* PlistBookmark */;
-			E1F56EE511DB7954008278E2 /* PlistBookmark */ = E1F56EE511DB7954008278E2 /* PlistBookmark */;
+			E1E5D500123E844A00EE31F2 /* PlistBookmark */ = E1E5D500123E844A00EE31F2 /* PlistBookmark */;
+			E1E5D501123E844A00EE31F2 /* PBXTextBookmark */ = E1E5D501123E844A00EE31F2 /* PBXTextBookmark */;
+			E1E5D502123E844A00EE31F2 /* PBXTextBookmark */ = E1E5D502123E844A00EE31F2 /* PBXTextBookmark */;
+			E1E5D503123E844A00EE31F2 /* PBXTextBookmark */ = E1E5D503123E844A00EE31F2 /* PBXTextBookmark */;
+			E1E5D504123E844A00EE31F2 /* PBXTextBookmark */ = E1E5D504123E844A00EE31F2 /* PBXTextBookmark */;
 		};
 		sourceControlManager = E1C8C9930EB1D4B2006FEE71 /* Source Control */;
 		userBuildSettings = {
@@ -97,16 +100,6 @@
 		uiCtxt = {
 			sepNavWindowFrame = "{{15, -1}, {1439, 874}}";
 		};
-	};
-	E16FA1B80EBA112C0046D34D /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* CookBookAppDelegate.m */;
-		name = "CookBookAppDelegate.m: 17";
-		rLen = 0;
-		rLoc = 353;
-		rType = 0;
-		vrLen = 451;
-		vrLoc = 0;
 	};
 	E16FA1B90EBA112C0046D34D /* PBXBookmark */ = {
 		isa = PBXBookmark;
@@ -170,7 +163,7 @@
 	};
 	E1C8C9A30EB1FBBC006FEE71 /* CookBookController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1172, 741}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1110, 668}}";
 			sepNavSelRange = "{674, 0}";
 			sepNavVisRange = "{0, 1344}";
 		};
@@ -197,18 +190,6 @@
 		vrLen = 962;
 		vrLoc = 83;
 	};
-	E1D1956D0EBA13E300E2BEF1 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			UIStatusBarHidden,
-		);
-		name = /Users/yoanngini/Desktop/CookBook/Info.plist;
-		rLen = 0;
-		rLoc = 2147483647;
-	};
 	E1E4DE270EB21ABC00E2AF01 /* CookBookViewer.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1172, 741}}";
@@ -223,7 +204,7 @@
 			sepNavVisRange = "{294, 742}";
 		};
 	};
-	E1F56EE511DB7954008278E2 /* PlistBookmark */ = {
+	E1E5D500123E844A00EE31F2 /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
 		fallbackIsa = PBXBookmark;
@@ -234,5 +215,45 @@
 		name = "/Users/yoanngini/SVN/cocoa-courses-fr/201/Demo/CookBook/Info.plist";
 		rLen = 0;
 		rLoc = 9223372036854775807;
+	};
+	E1E5D501123E844A00EE31F2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E1C8C9A30EB1FBBC006FEE71 /* CookBookController.h */;
+		name = "CookBookController.h: 24";
+		rLen = 0;
+		rLoc = 674;
+		rType = 0;
+		vrLen = 1344;
+		vrLoc = 0;
+	};
+	E1E5D502123E844A00EE31F2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* CookBookAppDelegate.h */;
+		name = "CookBookAppDelegate.h: 12";
+		rLen = 30;
+		rLoc = 255;
+		rType = 0;
+		vrLen = 439;
+		vrLoc = 0;
+	};
+	E1E5D503123E844A00EE31F2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* CookBookAppDelegate.m */;
+		name = "CookBookAppDelegate.m: 17";
+		rLen = 0;
+		rLoc = 353;
+		rType = 0;
+		vrLen = 469;
+		vrLoc = 0;
+	};
+	E1E5D504123E844A00EE31F2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* CookBookAppDelegate.m */;
+		name = "CookBookAppDelegate.m: 17";
+		rLen = 0;
+		rLoc = 353;
+		rType = 0;
+		vrLen = 469;
+		vrLoc = 0;
 	};
 }
