@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* iP4AppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1102, 504}}";
+			sepNavSelRange = "{541, 87}";
+			sepNavVisRange = "{0, 641}";
+		};
+	};
+	1D3623250D0F684500981E51 /* iP4AppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 1414}}";
+			sepNavSelRange = "{570, 0}";
+			sepNavVisRange = "{2276, 1654}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* iP4 */ = {
+		activeExec = 0;
+		executables = (
+			8F9E0B4411845934009A7888 /* iP4 */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 8F9E0B4411845934009A7888 /* iP4 */;
+		activeSDKPreference = iphonesimulator3.1.3;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* iP4 */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* iP4 */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 8F9E0B5211845941009A7888 /* Code sense */;
+		executables = (
+			8F9E0B4411845934009A7888 /* iP4 */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA23EDF0692099D00951B8B" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					242,
+					20,
+					242,
+					242,
+					241,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					812,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					993,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					884,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 294440948;
+			PBXWorkspaceStateSaveDate = 294440948;
+		};
+		perUserProjectItems = {
+			8FCF397B118CD02400672BF1 /* PBXTextBookmark */ = 8FCF397B118CD02400672BF1 /* PBXTextBookmark */;
+			8FCF397C118CD02400672BF1 /* PBXTextBookmark */ = 8FCF397C118CD02400672BF1 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 8F9E0B5111845941009A7888 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	32CA4F630368D1EE00C91783 /* iP4_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1102, 478}}";
+			sepNavSelRange = "{190, 0}";
+			sepNavVisRange = "{0, 199}";
+		};
+	};
+	8F5F18F511886180006A222A /* IP4GridView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1379, 1876}}";
+			sepNavSelRange = "{3335, 0}";
+			sepNavVisRange = "{2646, 378}";
+			sepNavWindowFrame = "{{2, 49}, {1438, 829}}";
+		};
+	};
+	8F9E0B4411845934009A7888 /* iP4 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = iP4;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	8F9E0B5111845941009A7888 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	8F9E0B5211845941009A7888 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8F9E0B5A11845B56009A7888 /* IP4Settings.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1102, 673}}";
+			sepNavSelRange = "{320, 0}";
+			sepNavVisRange = "{0, 328}";
+		};
+	};
+	8F9E0B5B11845B56009A7888 /* IP4Settings.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1102, 1064}}";
+			sepNavSelRange = "{811, 11}";
+			sepNavVisRange = "{559, 1363}";
+		};
+	};
+	8F9E0B7B11845DDA009A7888 /* IP4Game.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1102, 696}}";
+			sepNavSelRange = "{752, 0}";
+			sepNavVisRange = "{0, 752}";
+		};
+	};
+	8F9E0B7C11845DDA009A7888 /* IP4Game.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1502, 2688}}";
+			sepNavSelRange = "{2136, 0}";
+			sepNavVisRange = "{1401, 1181}";
+		};
+	};
+	8F9E0B8011845FF5009A7888 /* IP4GridView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1102, 696}}";
+			sepNavSelRange = "{433, 0}";
+			sepNavVisRange = "{0, 640}";
+		};
+	};
+	8FCF397B118CD02400672BF1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8FDA0C6C11872C1B0025D4D2 /* IP4PlayerTwo.m */;
+		name = "IP4PlayerTwo.m: 82";
+		rLen = 0;
+		rLoc = 2156;
+		rType = 0;
+		vrLen = 1655;
+		vrLoc = 1534;
+	};
+	8FCF397C118CD02400672BF1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8FDA0C6C11872C1B0025D4D2 /* IP4PlayerTwo.m */;
+		name = "IP4PlayerTwo.m: 82";
+		rLen = 0;
+		rLoc = 2156;
+		rType = 0;
+		vrLen = 1655;
+		vrLoc = 1534;
+	};
+	8FDA0BF6118719D40025D4D2 /* Localizable.strings */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1379, 757}}";
+			sepNavSelRange = "{241, 0}";
+			sepNavVisRange = "{0, 249}";
+			sepNavWindowFrame = "{{2, 49}, {1438, 829}}";
+		};
+	};
+	8FDA0C6B11872C1B0025D4D2 /* IP4PlayerTwo.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1102, 696}}";
+			sepNavSelRange = "{658, 18}";
+			sepNavVisRange = "{0, 801}";
+		};
+	};
+	8FDA0C6C11872C1B0025D4D2 /* IP4PlayerTwo.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 2002}}";
+			sepNavSelRange = "{2156, 0}";
+			sepNavVisRange = "{1534, 1655}";
+			sepNavWindowFrame = "{{15, 49}, {1425, 829}}";
+		};
+	};
+	8FDA0C7C1187385B0025D4D2 /* IP4Protocol.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1102, 478}}";
+			sepNavSelRange = "{322, 0}";
+			sepNavVisRange = "{0, 322}";
+		};
+	};
+	8FDA0C7D118738B60025D4D2 /* IP4GridViewDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1102, 673}}";
+			sepNavSelRange = "{488, 0}";
+			sepNavVisRange = "{0, 488}";
+		};
+	};
+	8FDA0C7E118738C80025D4D2 /* IP4GameDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1102, 696}}";
+			sepNavSelRange = "{275, 0}";
+			sepNavVisRange = "{0, 275}";
+			sepNavWindowFrame = "{{15, 298}, {1117, 575}}";
+		};
+	};
+	8FDA0C7F118738FC0025D4D2 /* IP4PlayerTwoDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1102, 696}}";
+			sepNavSelRange = "{505, 50}";
+			sepNavVisRange = "{0, 561}";
+		};
+	};
+}

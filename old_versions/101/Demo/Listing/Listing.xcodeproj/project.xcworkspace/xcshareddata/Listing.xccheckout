@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>018B7F99-1FA4-45F2-91D6-DC54A5E1ADC5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Listing</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AABFFC86-B98F-4266-83FE-058278A56446</key>
+		<string>ssh://github.com/ygini/cocoa-courses-fr.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>101/Demo/Listing/Listing.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AABFFC86-B98F-4266-83FE-058278A56446</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/ygini/cocoa-courses-fr.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AABFFC86-B98F-4266-83FE-058278A56446</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AABFFC86-B98F-4266-83FE-058278A56446</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cocoa-courses-fr</string>
+		</dict>
+	</array>
+</dict>
+</plist>

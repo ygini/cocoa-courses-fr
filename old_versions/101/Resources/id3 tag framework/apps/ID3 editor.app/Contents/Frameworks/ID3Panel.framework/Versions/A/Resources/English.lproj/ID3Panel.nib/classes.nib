@@ -1,0 +1,123 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                AddPicture = id; 
+                Cancel = id; 
+                DeleteFrame = id; 
+                DeletePicture = id; 
+                FrameList = id; 
+                GenreSelector = id; 
+                Next = id; 
+                OK = id; 
+                PictureSlider = id; 
+                Previous = id; 
+                myAction2 = id; 
+            }; 
+            CLASS = Controller; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                AlbumPage1 = id; 
+                AlbumPage2 = id; 
+                ArtistPage1 = id; 
+                ArtistPage2 = id; 
+                BitRate = id; 
+                Channels = id; 
+                Comments = id; 
+                Composer = id; 
+                DateModified = id; 
+                DiscNumber = id; 
+                DiskMax = id; 
+                EncodingWith = id; 
+                Format = id; 
+                Frame = id; 
+                FrameContent = id; 
+                FrameList = id; 
+                Genre = id; 
+                ID3Tag = id; 
+                Kind = id; 
+                LastPlayed = id; 
+                Path = id; 
+                PicturePage1 = id; 
+                PicturePage4 = id; 
+                PlayCount = id; 
+                SampleRate = id; 
+                Size = id; 
+                TitlePage1 = id; 
+                TrackNumber = id; 
+                TrackTotal = id; 
+                Volume = id; 
+                Year = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                AddPicture = id; 
+                Cancel = id; 
+                DeleteFrame = id; 
+                DeletePicture = id; 
+                FrameList = id; 
+                FrameSliderControl = id; 
+                GenreSelector = id; 
+                Next = id; 
+                OK = id; 
+                PictureSliderControl = id; 
+                Previous = id; 
+                hide = id; 
+                hideOtherApplications = id; 
+                myAction2 = id; 
+                orderFrontStandardAboutPanel = id; 
+                terminate = id; 
+                unhideAllApplications = id; 
+            }; 
+            CLASS = ID3Panel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                Advanced = id; 
+                AlbumPage1 = id; 
+                AlbumPage2 = id; 
+                ArtistPage1 = id; 
+                ArtistPage2 = id; 
+                BitRate = id; 
+                Channels = id; 
+                Comments = id; 
+                Composer = id; 
+                DateModified = id; 
+                Delete = id; 
+                DeletePicture = id; 
+                DiscNumber = id; 
+                DiskMax = id; 
+                EncodingWith = id; 
+                FileSize = id; 
+                Format = id; 
+                Frame = id; 
+                FrameContent = id; 
+                FrameList = id; 
+                FrameSize = id; 
+                FrameSlider = id; 
+                Genre = id; 
+                ID3Tag = id; 
+                Kind = id; 
+                LastPlayed = id; 
+                NextButton = id; 
+                Path = id; 
+                PicturePage1 = id; 
+                PicturePage4 = id; 
+                PictureSlider = id; 
+                PlayCount = id; 
+                PreviousButton = id; 
+                SampleRate = id; 
+                TitlePage1 = id; 
+                TitlePage2 = id; 
+                TrackNumber = id; 
+                TrackTotal = id; 
+                Volume = id; 
+                Year = id; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

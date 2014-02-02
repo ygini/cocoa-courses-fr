@@ -1,0 +1,143 @@
+// !$*UTF8*$!
+{
+	256AC3D80F4B6AC300CF3369 /* iTaxAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1652, 987}}";
+			sepNavSelRange = "{397, 0}";
+			sepNavVisRange = "{0, 708}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* iTaxAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1652, 987}}";
+			sepNavSelRange = "{251, 0}";
+			sepNavVisRange = "{0, 1490}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = E10225C310E8DAA7001698D9 /* iTax */;
+		activeTarget = 8D1107260486CEB800E47090 /* iTax */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* iTax */,
+		);
+		codeSenseManager = E10225D510E8DAB4001698D9 /* Code sense */;
+		executables = (
+			E10225C310E8DAA7001698D9 /* iTax */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					10,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 285785835;
+			PBXWorkspaceStateSaveDate = 285785835;
+		};
+		perUserProjectItems = {
+			E1B2962611060E97000C4E87 /* PBXTextBookmark */ = E1B2962611060E97000C4E87 /* PBXTextBookmark */;
+			E1B2964611060F7C000C4E87 /* PBXTextBookmark */ = E1B2964611060F7C000C4E87 /* PBXTextBookmark */;
+			E1D88AB71108BF16002B8975 /* PBXTextBookmark */ = E1D88AB71108BF16002B8975 /* PBXTextBookmark */;
+		};
+		sourceControlManager = E10225D410E8DAB4001698D9 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* iTax */ = {
+		activeExec = 0;
+		executables = (
+			E10225C310E8DAA7001698D9 /* iTax */,
+		);
+	};
+	E10225C310E8DAA7001698D9 /* iTax */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = iTax;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	E10225D410E8DAB4001698D9 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	E10225D510E8DAB4001698D9 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	E1B2962611060E97000C4E87 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* iTaxAppDelegate.h */;
+		name = "iTaxAppDelegate.h: 18";
+		rLen = 0;
+		rLoc = 397;
+		rType = 0;
+		vrLen = 708;
+		vrLoc = 0;
+	};
+	E1B2964611060F7C000C4E87 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* iTaxAppDelegate.m */;
+		name = "iTaxAppDelegate.m: 42";
+		rLen = 0;
+		rLoc = 1143;
+		rType = 0;
+		vrLen = 1490;
+		vrLoc = 0;
+	};
+	E1D88AB71108BF16002B8975 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* iTaxAppDelegate.m */;
+		name = "iTaxAppDelegate.m: 14";
+		rLen = 0;
+		rLoc = 251;
+		rType = 0;
+		vrLen = 1490;
+		vrLoc = 0;
+	};
+}

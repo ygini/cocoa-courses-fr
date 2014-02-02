@@ -1,0 +1,179 @@
+// !$*UTF8*$!
+{
+	256AC3D80F4B6AC300CF3369 /* ImagePickerAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1593, 987}}";
+			sepNavSelRange = "{326, 11}";
+			sepNavVisRange = "{0, 434}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* ImagePickerAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1593, 987}}";
+			sepNavSelRange = "{430, 0}";
+			sepNavVisRange = "{0, 590}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = E177E290110DB096004DE2E0 /* ImagePicker */;
+		activeTarget = 8D1107260486CEB800E47090 /* ImagePicker */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* ImagePicker */,
+		);
+		codeSenseManager = E177E29F110DB0B5004DE2E0 /* Code sense */;
+		executables = (
+			E177E290110DB096004DE2E0 /* ImagePicker */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					10,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 286121756;
+			PBXWorkspaceStateSaveDate = 286121756;
+		};
+		perUserProjectItems = {
+			E121E2C5110DDC2400BB52A0 /* PBXTextBookmark */ = E121E2C5110DDC2400BB52A0 /* PBXTextBookmark */;
+			E121E2C7110DDC2400BB52A0 /* PBXTextBookmark */ = E121E2C7110DDC2400BB52A0 /* PBXTextBookmark */;
+			E1384214110DDF210069EF8C /* PBXTextBookmark */ = E1384214110DDF210069EF8C /* PBXTextBookmark */;
+			E177E2B0110DBA2D004DE2E0 /* PBXTextBookmark */ = E177E2B0110DBA2D004DE2E0 /* PBXTextBookmark */;
+			E177E2EE110DBC85004DE2E0 /* PBXTextBookmark */ = E177E2EE110DBC85004DE2E0 /* PBXTextBookmark */;
+		};
+		sourceControlManager = E177E29E110DB0B5004DE2E0 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* ImagePicker */ = {
+		activeExec = 0;
+		executables = (
+			E177E290110DB096004DE2E0 /* ImagePicker */,
+		);
+	};
+	E121E2C5110DDC2400BB52A0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E177E2A1110DB0D7004DE2E0 /* YGImagePickerController.h */;
+		name = "YGImagePickerController.h: 14";
+		rLen = 9;
+		rLoc = 299;
+		rType = 0;
+		vrLen = 462;
+		vrLoc = 0;
+	};
+	E121E2C7110DDC2400BB52A0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E177E2A2110DB0D7004DE2E0 /* YGImagePickerController.m */;
+		name = "YGImagePickerController.m: 62";
+		rLen = 0;
+		rLoc = 1541;
+		rType = 0;
+		vrLen = 1030;
+		vrLoc = 511;
+	};
+	E1384214110DDF210069EF8C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E177E2A2110DB0D7004DE2E0 /* YGImagePickerController.m */;
+		name = "YGImagePickerController.m: 62";
+		rLen = 0;
+		rLoc = 1541;
+		rType = 0;
+		vrLen = 1020;
+		vrLoc = 0;
+	};
+	E177E290110DB096004DE2E0 /* ImagePicker */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ImagePicker;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	E177E29E110DB0B5004DE2E0 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	E177E29F110DB0B5004DE2E0 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	E177E2A1110DB0D7004DE2E0 /* YGImagePickerController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {674, 540}}";
+			sepNavSelRange = "{299, 9}";
+			sepNavVisRange = "{0, 462}";
+		};
+	};
+	E177E2A2110DB0D7004DE2E0 /* YGImagePickerController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {922, 806}}";
+			sepNavSelRange = "{1541, 0}";
+			sepNavVisRange = "{0, 1020}";
+		};
+	};
+	E177E2B0110DBA2D004DE2E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* ImagePickerAppDelegate.h */;
+		name = "ImagePickerAppDelegate.h: 15";
+		rLen = 11;
+		rLoc = 326;
+		rType = 0;
+		vrLen = 434;
+		vrLoc = 0;
+	};
+	E177E2EE110DBC85004DE2E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* ImagePickerAppDelegate.m */;
+		name = "ImagePickerAppDelegate.m: 17";
+		rLen = 0;
+		rLoc = 430;
+		rType = 0;
+		vrLen = 590;
+		vrLoc = 0;
+	};
+}
